@@ -14,7 +14,7 @@ int main()
     {
         perror("open error");
     }
-
+    close (fd);
 
     return 0;
 }
